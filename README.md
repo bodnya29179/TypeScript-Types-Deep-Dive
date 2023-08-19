@@ -41,6 +41,12 @@ keyof Something
 
 ### \> Typeof
 
+`typeof` is a keyword which is used to check the type of variable.
+
+```typescript
+typeof Something
+```
+
 ### \> Types intersection
 
 `Types intersection` is a way to declare a type that combines multiple types into a single type that contains all the
