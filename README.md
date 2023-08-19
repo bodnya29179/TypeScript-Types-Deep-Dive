@@ -239,3 +239,7 @@ Type['property']
 2. [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html).
 3. [TypeScript Book](https://github.com/gibbok/typescript-book).
 4. [Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html).
+
+## Repository link
+
+![Repo link](./images/qr-code.png)
