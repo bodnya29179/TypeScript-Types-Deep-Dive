@@ -245,6 +245,7 @@ improve data handling.
 2. [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html).
 3. [TypeScript Book](https://github.com/gibbok/typescript-book).
 4. [Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html).
+5. [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html).
 
 ## Repository link
 
