@@ -109,7 +109,7 @@ const person: [string, number, boolean] = ['John', 20, true];
 `Literal Types` allows us to create more precise types like type combinations using template literals.
 
 ```typescript
-
+type LiteralType = `${Type1}-${Type2}`;
 ```
 
 ### \> Utility types
