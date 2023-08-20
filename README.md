@@ -2,7 +2,7 @@
 
 ## Structure of files
 
-- **Basics**: `01-*.ts` - `11-*.ts`.
+- **Basics**: `00-*.ts` - `12-*.ts`.
 - **Advanced**: will be ready soon...
 
 ## Definitions
@@ -232,6 +232,12 @@ Uncapitalize<StringType>
 ```typescript
 Type['property']
 ```
+
+### \> Generics
+
+`Generics` are a mechanism that allows you to create generic types or functions that can work with different data types
+while maintaining type safety. They allow you to provide compile-time type checking and use this type information to
+improve data handling.
 
 ## References
 
