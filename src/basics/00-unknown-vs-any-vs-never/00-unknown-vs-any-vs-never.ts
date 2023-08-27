@@ -18,10 +18,10 @@ function someFunc2(callback: unknown): void {
 
 // "never" means "disallowed value"
 function getType(value: unknown): string | never {
-  if (typeof value === "string") {
-    return "string";
+  if (typeof value === 'string') {
+    return 'string';
   } else {
-    throw new Error("Value is not a string");
+    throw new Error('Value is not a string');
   }
 }
 

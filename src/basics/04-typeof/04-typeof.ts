@@ -31,6 +31,14 @@ function someFunc(): number {
 type FunctionType = typeof someFunc; // () => number
 
 
+// example 6
+enum Button {
+  primary,
+  secondary,
+}
+
+type ButtonType = keyof (typeof Button);
+
 
 
 export {};

@@ -9,6 +9,7 @@ interface Product {
 
 const product: Partial<Product> = {};
 
+
 // example 2
 interface Todo {
   id: number;

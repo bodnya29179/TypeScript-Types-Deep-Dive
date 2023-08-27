@@ -5,11 +5,12 @@ type ValueFromPromiseType = Awaited<Promise<string>>;
 
 const value: ValueFromPromiseType = 'test';
 
+
 // example 2
 type ExtractValueType = Awaited<boolean | Promise<number>>; // number | boolean
 
 
-// example 2
+// example 3
 function someFunc(): Promise<{ x: number; y: number; }> {
   return Promise.resolve({ x: 1, y: 1 });
 }
