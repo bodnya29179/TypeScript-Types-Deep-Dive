@@ -162,6 +162,14 @@ Pick<Type, Keys>
 Exclude<UnionType, ExcludedMembers>
 ```
 
+#### Extract
+
+`Extract` constructs a type by extracting from `Type` all union members that are assignable to `UnionType`.
+
+```typescript
+Extract<Type, UnionType>
+```
+
 #### ReturnType
 
 `ReturnType` extracts the return type of function type.

@@ -5,6 +5,9 @@ type ValueFromPromiseType = Awaited<Promise<string>>;
 
 const value: ValueFromPromiseType = 'test';
 
+// example 2
+type ExtractValueType = Awaited<boolean | Promise<number>>; // number | boolean
+
 
 // example 2
 function someFunc(): Promise<{ x: number; y: number; }> {

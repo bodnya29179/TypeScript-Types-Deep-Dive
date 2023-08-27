@@ -12,6 +12,12 @@ const product: Required<Product> = {
   price: 800,
 };
 
+function addProductToCart(product: Required<Product>): void {
+  /* doing some actions */
+}
+
+addProductToCart(product);
+
 
 
 export {};

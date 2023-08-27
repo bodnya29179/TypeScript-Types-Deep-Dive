@@ -1,9 +1,10 @@
-/* Syntax: Exclude<UnionType, ExcludedMembers> */
+/* Syntax: Extract<Type, UnionType> */
+
 
 // example 1
 type PermissionType = 'admin' | 'user' | 'superuser' | 'auditor';
 
-const permission: Exclude<PermissionType, 'admin' | 'superuser'> = 'auditor';
+const permission: Extract<PermissionType, 'admin' | 'reviewer'> = 'admin';
 
 // example 2
 type Shape =
@@ -11,9 +12,9 @@ type Shape =
   | { kind: 'square'; x: number }
   | { kind: 'rectangle'; x: number; y: number };
 
-const shape: Exclude<Shape, { kind: 'circle' }> = {
-  kind: 'square',
-  x: 5,
+const shape: Extract<Shape, { kind: 'circle' }> = {
+  kind: 'circle',
+  radius: 10,
 };
 
 
