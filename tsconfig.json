@@ -3,7 +3,8 @@
     "module": "umd",
     "target": "es5",
     "sourceMap": true,
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules"

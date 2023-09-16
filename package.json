@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "description": "Deep learning the types of TypeScript",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "typescript",
-    "types"
-  ],
+  "keywords": ["typescript", "types"],
   "author": "Yevhen Bodnia",
   "license": "ISC",
   "devDependencies": {

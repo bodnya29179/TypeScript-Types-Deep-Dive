@@ -3,7 +3,7 @@
 ## Structure of files
 
 - **Basics**: `00-*.ts` - `12-*.ts`.
-- **Advanced**: will be ready soon...
+- **Advanced**: `13-*.ts` - `15-*.ts`.
 
 ## Definitions
 
@@ -256,5 +256,9 @@ improve data handling.
 5. [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html).
 
 ## Repository link
+
+🔗 https://github.com/bodnya29179/TypeScript-Types-Deep-Dive
+
+**or**
 
 ![Repo link](./images/qr-code.png)
