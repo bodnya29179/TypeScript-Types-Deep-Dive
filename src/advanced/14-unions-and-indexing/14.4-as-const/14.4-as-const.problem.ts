@@ -3,7 +3,7 @@ import { Equal, Expect } from '../../../helpers';
 /*
  * TODO: Fix the issue of extracting the type by using indexed access.
  */
-export const programModeEnumMap = {
+const programModeEnumMap = {
   GROUP: 'group',
   ANNOUNCEMENT: 'announcement',
   ONE_ON_ONE: '1on1',
@@ -12,12 +12,12 @@ export const programModeEnumMap = {
   PLANNED_SELF_DIRECTED: 'plannedSelfDirected',
 };
 
-export type GroupProgram = typeof programModeEnumMap['GROUP'];
-export type AnnouncementProgram = typeof programModeEnumMap['ANNOUNCEMENT'];
-export type OneOnOneProgram = typeof programModeEnumMap['ONE_ON_ONE'];
-export type SelfDirectedProgram = typeof programModeEnumMap['SELF_DIRECTED'];
-export type PlannedOneOnOneProgram = typeof programModeEnumMap['PLANNED_ONE_ON_ONE'];
-export type PlannedSelfDirectedProgram = typeof programModeEnumMap['PLANNED_SELF_DIRECTED'];
+type GroupProgram = typeof programModeEnumMap['GROUP'];
+type AnnouncementProgram = typeof programModeEnumMap['ANNOUNCEMENT'];
+type OneOnOneProgram = typeof programModeEnumMap['ONE_ON_ONE'];
+type SelfDirectedProgram = typeof programModeEnumMap['SELF_DIRECTED'];
+type PlannedOneOnOneProgram = typeof programModeEnumMap['PLANNED_ONE_ON_ONE'];
+type PlannedSelfDirectedProgram = typeof programModeEnumMap['PLANNED_SELF_DIRECTED'];
 
 
 /* Test the result */

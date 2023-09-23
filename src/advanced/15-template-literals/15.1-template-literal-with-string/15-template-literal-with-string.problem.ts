@@ -4,7 +4,7 @@
  */
 type Route = unknown;
 
-export const goToRoute = (route: Route) => { /* Some action... */ };
+const goToRoute = (route: Route) => { /* Some action... */ };
 
 
 /* Test the result */

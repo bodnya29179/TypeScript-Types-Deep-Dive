@@ -3,7 +3,7 @@ import { Equal, Expect } from '../../../helpers';
 /*
  * TODO: Get all individual programs from object: 1on1, selfDirected, planned1on1, plannedSelfDirected.
  */
-export const programModeEnumMap = {
+const programModeEnumMap = {
   GROUP: 'group',
   ANNOUNCEMENT: 'announcement',
   ONE_ON_ONE: '1on1',

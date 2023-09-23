@@ -15,5 +15,5 @@ type tests = [
   Maybe<string>,
   Maybe<false>,
   Maybe<0>,
-  Maybe<"">,
+  Maybe<''>,
 ];

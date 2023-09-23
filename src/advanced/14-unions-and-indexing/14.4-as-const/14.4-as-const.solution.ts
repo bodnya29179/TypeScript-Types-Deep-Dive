@@ -3,7 +3,7 @@ import { Equal, Expect } from '../../../helpers';
 /*
  * TODO: Fix the issue of extracting the type by using indexed access.
  */
-export const programModeEnumMap = {
+const programModeEnumMap = {
   GROUP: 'group',
   ANNOUNCEMENT: 'announcement',
   ONE_ON_ONE: '1on1',

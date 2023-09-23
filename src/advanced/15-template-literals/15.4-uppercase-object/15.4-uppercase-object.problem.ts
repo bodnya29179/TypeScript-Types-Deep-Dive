@@ -5,7 +5,7 @@ import { Equal, Expect } from '../../../helpers';
  *  that will include all Event keys in upper case
  *  and will have string types.
  */
-type Event = `log_in` | "log_out" | "sign_up";
+type Event = `log_in` | 'log_out' | 'sign_up';
 
 type ObjectOfKeys = unknown;
 
