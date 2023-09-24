@@ -1,9 +1,28 @@
 # TypeScript: Types Deep Dive
 
+## Why do we need it?
+
+It equips you with key insights and skills to effectively utilize TypeScript types for enhanced code quality and efficiency.
+
+![TypeScript "any"](./images/ts-any.jpg)
+
 ## Structure of files
 
-- **Basics**: `00-*.ts` - `12-*.ts`.
-- **Advanced**: `13-*.ts` - `15-*.ts`.
+- ### **Basics**:
+  
+  Important TypeScript topics for mastering further higher-level topics.
+  
+  Files: `00-*.ts` - `12-*.ts`.
+
+- ### **Advanced**:
+
+  Top-level topics about types in TypeScript.
+
+  Files: `13-*.ts` - `18-*.ts`.
+
+- ### **Homework**: 
+
+  Tasks that you can practice and think about.
 
 ## Definitions
 
