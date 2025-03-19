@@ -22,7 +22,7 @@ export type IndividualProgram = typeof programModeEnumMap[
 
 /* Solution 2 */
 export type IndividualProgram = typeof programModeEnumMap[
-  Extract<
+  Exclude<
     keyof typeof programModeEnumMap,
     'GROUP' | 'ANNOUNCEMENT'
   >
